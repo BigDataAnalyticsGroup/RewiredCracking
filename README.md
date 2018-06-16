@@ -40,8 +40,11 @@ mount -t cpuset cpuset /dev/cpuset
 
 ### Execute the Benchmarks
 
-```
-build_debug/bin/partition 100000 DENSE
+Use `build_debug/bin/partition -h` for help.
+
+
+```bash
+build_debug/bin/partition 4 DENSE
 ```
 
 You find the results in a CSV file that is named after the name of the host, e.g.
