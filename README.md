@@ -5,11 +5,13 @@
 ### Download the Source Code
 
 ```
-git clone TODO
+git clone https://github.com/BigDataAnalyticsGroup/RewiredCracking.git
 ```
 or
 ```
-wget | unzip TODO
+wget https://github.com/BigDataAnalyticsGroup/RewiredCracking/archive/master.zip
+unzip master.zip
+rm master.zip
 ```
 
 ### Build the Project
@@ -29,7 +31,12 @@ sudo ./mount_hugetlbfs.sh
 
 ### Mount the `cpuset` pseudo filesystem
 
-TODO
+The following commands require privileged access.
+
+```
+mkdir /dev/cpuset
+mount -t cpuset cpuset /dev/cpuset
+```
 
 ### Execute the Benchmarks
 
