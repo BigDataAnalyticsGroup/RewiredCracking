@@ -1,0 +1,6 @@
+[submodule "pcm"]
+	path = processorcountermonitor
+	url = git@github.com:opcm/pcm.git
+[submodule "processorcountermonitor"]
+	path = processorcountermonitor
+	url = git@github.com:opcm/pcm.git
