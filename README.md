@@ -1,5 +1,10 @@
 # An Analysis and Evaluation of Database Cracking Kernels
 
+## Licence
+
+The source code is provided under the Apache v2 licence.  A copy of the licence is provided in the LICENCE.TXT file,
+which is included in this repository.
+
 ## Instructions
 
 ### Download the Source Code
